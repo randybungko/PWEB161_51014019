@@ -1,8 +1,0 @@
-+10 tugas selesai minimal 5 lagu
-+1 tambahan 1 lagu
-+12 untuk 6 link OK
--6 untuk 6 lagu tanpa gambar
-+2 untuk background index
-+6 untuk 6 judul lagu yang link ke wikipedia
-
-TOTAL : 25

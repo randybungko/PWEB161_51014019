@@ -1,0 +1,57 @@
+body{
+	background-color: #9990ff;
+}
+img
+{
+	width: 300px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1
+{
+	font-color:#000000;
+	font-size: 70px;
+	text-align: center;
+	font-family: Bradley Hand ITC, Arial;
+
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    font-family: Bradley Hand ITC, Arial;
+    border-style:inset;
+}
+
+#daftar{
+	text-align: left;
+	color: #ffffff;
+}
+
+li{
+	font-family: Kristen ITC, Arial;
+
+}
+
+ol{
+	border-style:solid;
+	border-left-width:15px;
+	border-color:#500000;
+}
+
+p {
+    font-family: SimSun, Arial;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.link{
+	font-size: 30px;
+	font-family: Chiller;
+	border-style:inset;
+}
