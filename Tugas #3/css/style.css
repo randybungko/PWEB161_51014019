@@ -1,0 +1,97 @@
+body{
+	background-image: url(doodle.jpg);
+	margin:auto;
+}
+
+.bodi{
+	background-color: #000000;
+	background-position :center;
+	width: 1070px;
+	height: 900px;
+	margin-left: 130px;
+	margin: auto;
+}
+
+img{
+	margin-top: 10px;
+	width: 80%;
+	height: 300px;
+
+
+}
+
+ol{
+	list-style-type: none;
+	
+}
+
+li a:hover{
+	background-color: #f00;
+}
+.judul{
+	margin-top: 50px;
+	text-align: center;
+    background-color: #ffffff;
+    width: 77%;
+    padding: 15px;
+	color: #000000;
+	font-size: 50px;
+	font-weight: bold;
+	position: fixed;
+}
+
+.daftar{
+	margin-top: 140px;
+	color: #000000;
+	font-weight: bold;
+	font-size: 36px;
+	font-style: italic;
+	background-color: #ffffff;
+	width: 395px;
+	padding: 15px;
+	position: fixed;
+}
+
+.list{
+	margin-top: 213px;
+	color: #ff0000;
+	overflow: scroll;
+	font-weight: bold;
+	font-size: 23px;
+	font-style: italic;
+	background-color: #ffffff;
+	width: 425px;
+	height: 300px;
+	position: fixed;
+}
+
+.lagu1{
+	margin-top: 122px;
+	margin-left: 427px;
+	height: 77.4%;
+	width: 47.5%;
+	overflow: scroll;
+	background-color: #ffffff;
+	position: fixed;
+}
+
+h2 {
+    color: #ff0000;
+    text-align: center;
+    font-size: 50px;
+    font-family: Bradley Hand ITC, Arial;
+    border-style:inset;
+}
+
+p {
+    font-family: SimSun, Arial;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.link{
+	font-size: 30px;
+	font-family: Chiller;
+	border-style:inset;
+}
