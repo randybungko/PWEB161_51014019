@@ -1,0 +1,6 @@
+Theme: 
+1. Greyscale (http://startbootstrap.com/template-overviews/grayscale)
+2. Freelancer (http://startbootstrap.com/template-overviews/grayscale)
+
++10 untuk tugas yang di commit terakhir selambatnya tanggal 09/11/16 23:59:59
+
