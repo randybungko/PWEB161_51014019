@@ -1,0 +1,71 @@
+.lead{
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.lead1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.paragraf{
+	font-size: 18px;
+}
+
+.baca{
+	font-size: 15px;
+}
+
+.foto{
+	display: block;
+    margin: auto;
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+}
+
+.foto1{
+	display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius:50%;	
+}
+
+.biodata{
+	font-size: 18px;
+	text-align: center;
+}
+
+.poto{
+	height: 40px;
+	width: 40px;
+}
+
+
+.latihang{
+	display: block;
+	margin: 3px;
+    float: left;
+    width: 350px;
+    height: 270px;
+ }
+
+.futsal{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.kalimat{
+	margin-left: 30px;
+	font-size: 22px;
+}
+
+.isi{
+	font-size: 20px;
+	font-family: Comic Sans MS;
+}

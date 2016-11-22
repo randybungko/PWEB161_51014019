@@ -12,6 +12,7 @@
     <title>Futsal STMIK Kharisma Makassar</title>
 
     <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="../../dist/css/bootstrap.css" rel="stylesheet">
 
 
@@ -32,7 +33,7 @@
 
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
-    <link href="mystyle.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -53,15 +54,15 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#visi">Visi Misi</a></li>
-                <li><a href="#struktur">Struktur Organisasi</a></li>
-                <li><a href="#kegiatan">Kegiatan</a></li>
+                <li><a href="index.html"><span class="glyphicon glyphicon-th-large" aria-hidden="true"></span> Home</a></li>
+                <li><a href="index.html #visi"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Visi Misi</a></li>
+                <li><a href="struktur.html"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> Struktur Organisasi</a></li>
+                <li class="active"><a href="kegiatan.html"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Kegiatan</a></li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Formulir<span class="caret"></span></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Formulir<span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#formulir">Formulir Pendaftaran UKM</a></li>
-                    <li><a href="#formulir">Formulir Pendaftaran FutsalCup</a></li>
+                    <li><a href="registrasi.html">Formulir Pendaftaran UKM</a></li>
+                    <li><a href="cup.html">Formulir Pendaftaran FutsalCup</a></li>
                   </ul>
                 </li>
               </ul>
@@ -71,9 +72,7 @@
 
       </div>
     </div>
-
-
-    <!-- Carousel
+<!--gambar silde
     ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
@@ -81,31 +80,34 @@
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="img/latihan/1.jpg" alt="First slide">
+          <img class="first-slide" src="img/logo.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <p><a class="btn btn-lg btn-primary" href="#kegiatan" role="button">Latihan UKM Futsal</a></p>
+              <h1></h1>
+            
+                
+              
             </div>
           </div>
         </div>
         <div class="item">
-          <img class="second-slide" src="img/champ/14.jpg" alt="Second slide">
+          <img class="second-slide" src="img/champ/1.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <p><a class="btn btn-lg btn-primary" href="#kegiatan" role="button">Kharisma Futsal Champion</a></p>
+              
+             
             </div>
           </div>
         </div>
         <div class="item">
-          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <img class="third-slide" src="img/latihan/4.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            
             </div>
           </div>
         </div>
@@ -120,14 +122,27 @@
       </a>
     </div><!-- /.carousel -->
 
+
+    <!-- Kegiatan Kampus
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+
       <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Latihan futsal</h2>
+          <p class="isi">UKM Futsal mengadakan latihan futsal bersama setiap hari RABU pukul 4-6 sore di Lapangan Futsal Holic Jl.Monginsidi. </p>
+           
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" src="img/latihan/2.jpg" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -135,11 +150,12 @@
 
       <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Kharisma Futsal Championship</h2>
+          <p class="isi">Salah satu turnament futsal antar angkatan dan jurusan yang setiap tahun dibuat oleh UKM Futsal Kharisma.Tetapi pada tahun 2016 turnament ini ditiadakan karena kurangnya antusias mahasiswa dalam bermain futsal. </p>
+          
         </div>
         <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" src="img/champ/1.jpg" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -147,26 +163,27 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Pertandingan Futsal Kharisma 2012</h2>
+          <p class="isi">Klasemen disamping merupakan klasemen pertandingan futsal Kharisma pada tahun 2012. Pada tahun ini, UKM Futsal sangat populer dilingkungan kampus.Tahun demi tahun berlalu, UKM Futsal mulai redup.Ini dikarenakan antusias yang kurang dari mahasiswa untuk bermain futsal. </p>
+           
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" src="img/2012.jpg" alt="Generic placeholder image">
         </div>
       </div>
 
-      <hr class="featurette-divider">
+      </div>
+
+     
 
       <!-- /END THE FEATURETTES -->
 
 
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
+      <p class="baca"><a href="#"><span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span> back to top</span></a></p>
 
     </div><!-- /.container -->
+
+
 
 
     <!-- Bootstrap core JavaScript
