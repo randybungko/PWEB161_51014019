@@ -1,0 +1,4 @@
+<br>
+<center><h1>Pengalaman</h1></center>
+<hr>
+<center><p>Nama saya Randy Darmawan Bungko, saya adalah seorang mahasiswa jurusan Sistem Informas angkatan 2014. Di semester 5 ini, saya mengambil mata kuliah <ins>Pemograman Web</ins>. Dimata kuliah ini saya diajar oleh Pak Sofyan. Saya sangat berantusias dalam menjalani mata kuliah ini. Dari tugas awal sampai tugas sekarang ini, saya kerjakan sendiri dengan usaha sendiri dan selalu mengumpulkan nya tepat waktu, walaupun sering kali mendapat masalah dalam proses upload di github. Yang membuat saya sangat stree ketika tugas MID saya tidak bisa terupload di github karena terdapat error pada github dekstop saya. Tapi semuanya terselesaikan dengan baik berkat bantuan teman saya yang bernama Ariangga.</p></center>
